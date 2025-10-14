@@ -1,0 +1,118 @@
+/* ------------------------------
+   Font integration
+------------------------------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("../font/ClashGrotesk-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("../font/ClashGrotesk-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("../font/ClashGrotesk-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("../font/ClashGrotesk-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ------------------------------
+   CSS Variables / Root Colors
+------------------------------ */
+:root {
+  --primary-dark-green: #0f2f2c;
+  --primary-parrot-green: #34ff67;
+  --secondary-black-gray: #1e1e1e;
+  --secondary-orange: #ff6600;
+  --white: #ffffff;
+  --off-white: #f7f8fa;
+  --black: #000000;
+  --text-gray: #444444;
+  --text-light-gray: #797979;
+}
+
+/* ------------------------------
+   CSS Reset
+------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------------
+   Base styles
+------------------------------ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white);
+}
+
+/* ------------------------------
+   Global elements
+------------------------------ */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 95%;
+  max-width: 1440px;
+}
+
+/* ------------------------------
+   button code
+------------------------------ */
+/* white */
+.btn-white {
+  background-color: transparent;
+  font-family: "ClashGrotesk", sans-serif;
+  font-weight: 600;
+  color: var(--primary-dark-green);
+  padding: 18px 40px;
+  border: 1px solid var(--primary-dark-green);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.btn-white:hover {
+  background-color: var(--primary-dark-green);
+  color: var(--white);
+  border: 1px solid var(--primary-dark-green);
+  transition: all 0.3s ease;
+}
+/* darkgreen */
+.btn-dark-green {
+  background-color: var(--primary-dark-green);
+  font-family: "ClashGrotesk", sans-serif;
+  font-weight: 600;
+  color: var(--white);
+  padding: 18px 40px;
+  border: 1px solid var(--primary-dark-green);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.btn-dark-green:hover {
+  background-color: transparent;
+  color: var(--primary-dark-green);
+  border: 1px solid var(--primary-dark-green);
+  transition: all 0.3s ease;
+}
