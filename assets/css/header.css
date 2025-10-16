@@ -20,9 +20,7 @@
   display: flex;
   gap: 20px;
 }
-.navigation ul li {
-  list-style: none;
-}
+
 .navigation ul li a {
   color: var(--primary-dark-green);
   font-family: "ClashGrotesk", sans-serif;

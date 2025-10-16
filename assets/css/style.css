@@ -54,6 +54,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 /* ------------------------------
@@ -75,8 +76,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+li {
+  list-style: none;
+}
+
 .container {
-  width: 95%;
+  width: 90%;
   max-width: 1440px;
 }
 
