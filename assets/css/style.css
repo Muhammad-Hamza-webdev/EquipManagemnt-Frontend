@@ -123,3 +123,39 @@ li {
   border: 1px solid var(--primary-dark-green);
   transition: all 0.3s ease;
 }
+/* parrotgreen */
+.btn-parrot-green {
+  background-color: var(--primary-parrot-green);
+  font-family: "ClashGrotesk", sans-serif;
+  font-weight: 600;
+  color: var(--black);
+  padding: 18px 40px;
+  border: 1px solid var(--primary-parrot-green);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.btn-parrot-green:hover {
+  background-color: #ffffff1a;
+  color: var(--white);
+  border: 1px solid var(--white);
+  backdrop-filter: blur(32px);
+  transition: all 0.3s ease;
+}
+/* white transparent */
+.btn-white-transparent {
+  background-color: #ffffff1a;
+  backdrop-filter: blur(32px);
+  font-family: "ClashGrotesk", sans-serif;
+  font-weight: 600;
+  color: var(--white);
+  padding: 18px 40px;
+  border: 1px solid var(--white);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.btn-white-transparent:hover {
+  background-color: var(--primary-parrot-green);
+  color: var(--black);
+  border: 1px solid var(--primary-parrot-green);
+  transition: all 0.3s ease;
+}
