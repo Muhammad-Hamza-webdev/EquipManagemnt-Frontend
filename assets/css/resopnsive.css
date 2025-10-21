@@ -33,7 +33,8 @@
     background-color: var(--white);
     top: 0;
     right: 0;
-    padding: 120px 120px 0 40px;
+    width: 90%;
+    padding: 120px 120px 0 30px;
     align-items: start;
     height: 100vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
