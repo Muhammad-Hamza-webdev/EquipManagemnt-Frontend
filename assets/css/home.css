@@ -109,19 +109,6 @@
   font-size: 16px;
   font-weight: 600;
 }
-.how-works h2 {
-  color: var(--title-black);
-  font-family: "Manrope", sans-serif;
-  font-size: 36px;
-  font-weight: 800;
-}
-.how-works p {
-  color: var(--text-gray);
-  font-family: "Manrope", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 30px;
-}
 
 /* timeline */
 .timeline-card {
@@ -137,4 +124,106 @@
 }
 .timeline-line {
   padding: 0 0 0 30px;
+}
+
+/* available */
+.available {
+  display: flex;
+  justify-content: center;
+}
+.inner-available {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.tabs {
+  background-color: var(--off-white);
+  display: flex;
+  padding: 10px;
+  border-radius: 360px;
+  gap: 20px;
+  align-items: center;
+}
+.tab-btn {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #585b7c;
+  background-color: var(--white);
+  cursor: pointer;
+  padding: 11px 33px;
+  border-radius: 360px;
+}
+.active {
+  background-color: var(--primary-parrot-green);
+  color: var(--title-black);
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.single-card {
+  width: 49.3%;
+  position: relative;
+  overflow: hidden;
+  padding: 22px;
+  border-radius: 22px;
+  /* Remove the ::after pseudo-element and add this instead */
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+}
+
+.single-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2; /* Changed to -2 to be behind the card background */
+  border-radius: 22px;
+}
+
+.one-card::before {
+  background-image: linear-gradient(#000000ab, #000000ab),
+    url("../img/d9481a5f13f611abc880dabbcce0f5ed92e15492.webp");
+}
+
+.two-card::before {
+  background-image: linear-gradient(#000000ab, #000000ab),
+    url("../img/77ed96019d6b8a88f4a77db05163cd72f1c93336.webp");
+}
+
+.single-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(6px);
+  z-index: -1;
+  border-radius: 22px; /* Add this */
+}
+
+.single-card > svg {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  cursor: pointer;
+  width: 40px;
+  height: 46px;
+}
+
+.card-info {
+  padding: 80px 0 0 0;
 }
