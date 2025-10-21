@@ -75,3 +75,66 @@
   font-size: 16px;
   font-weight: 700;
 }
+
+/* under hero section */
+.how-it-work {
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+}
+.inner-how-it-works {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.inner-how-it-works > .img {
+  width: 48%;
+}
+.inner-how-it-works > .img img {
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+  height: 100%;
+}
+.how-works {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.how-works span {
+  color: var(--secondary-orange);
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.how-works h2 {
+  color: var(--title-black);
+  font-family: "Manrope", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+.how-works p {
+  color: var(--text-gray);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* timeline */
+.timeline-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.timeline-card span {
+  color: var(--title-black);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.timeline-line {
+  padding: 0 0 0 30px;
+}

@@ -11,6 +11,12 @@
   .inner-hero-section p {
     padding: 0 50% 0 0;
   }
+  .inner-how-it-works > .img {
+    width: 47.5%;
+  }
+  .how-works {
+    width: 47.5%;
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -96,6 +102,15 @@
   .inner-hero-section p {
     padding: 0 40% 0 0;
   }
+  .inner-how-it-works {
+    gap: 20px;
+  }
+  .inner-how-it-works > .img {
+    width: 48%;
+  }
+  .how-works {
+    width: 48%;
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -103,6 +118,9 @@
 @media (max-width: 1140px) {
   .inner-hero-section h1 {
     padding: 0 25% 0 0;
+  }
+  .how-it-work {
+    padding: 80px 0;
   }
 }
 /* ================================================================== */
@@ -148,6 +166,15 @@
   .inner-hero-section p {
     padding: 0 20% 0 0;
   }
+  .inner-how-it-works {
+    gap: 60px;
+  }
+  .inner-how-it-works > .img {
+    width: 100%;
+  }
+  .how-works {
+    width: 100%;
+  }
 
   /* footer */
   .footer-logo span {
@@ -178,6 +205,9 @@
   .inner-hero-section p {
     padding: 0 0% 0 0;
   }
+  .how-it-work {
+    padding: 60px 0;
+  }
 
   /* footer */
   .footer-logo {
@@ -204,6 +234,18 @@
   .inner-hero-section h1 {
     padding: 0;
     font-size: 32px;
+  }
+  .how-it-work {
+    padding: 40px 0;
+  }
+  .inner-how-it-works {
+    gap: 40px;
+  }
+  .inner-how-it-works > .img img {
+    height: 400px;
+  }
+  .how-works h2 {
+    font-size: 30px;
   }
 
   /* footer */
@@ -241,5 +283,11 @@
 @media (max-width: 440px) {
   .slide::after {
     width: 24%;
+  }
+  .how-works h2 {
+    font-size: 26px;
+  }
+  .how-works p {
+    font-size: 16px;
   }
 }
