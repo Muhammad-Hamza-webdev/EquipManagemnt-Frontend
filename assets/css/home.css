@@ -144,6 +144,7 @@
   border-radius: 360px;
   gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 .tab-btn {
   font-family: "Manrope", sans-serif;
@@ -154,11 +155,30 @@
   background-color: var(--white);
   cursor: pointer;
   padding: 11px 33px;
+  text-align: center;
   border-radius: 360px;
+  transition: all 0.3s ease;
+  border: 1px solid var(--white);
+}
+.tab-btn:hover {
+  background-color: var(--primary-parrot-green);
+  border: 1px solid var(--primary-parrot-green);
+  color: var(--title-black);
+  transition: all 0.3s ease;
 }
 .active {
+  border: 1px solid var(--primary-parrot-green);
   background-color: var(--primary-parrot-green);
   color: var(--title-black);
+}
+.tab-content {
+  display: none;
+}
+
+.tab-content.active-tab {
+  display: flex;
+  gap: 20px;
+  width: 100%;
 }
 .cards {
   display: flex;
@@ -169,7 +189,7 @@
 }
 
 .single-card {
-  width: 49.3%;
+  width: 49%;
   position: relative;
   overflow: hidden;
   padding: 22px;
@@ -222,8 +242,69 @@
   cursor: pointer;
   width: 40px;
   height: 46px;
+  transition: all 0.3s ease;
+}
+.single-card > svg:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
 }
 
 .card-info {
   padding: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-info > div:nth-child(1) {
+  background-color: #ffffff1a;
+  padding: 12px 11px 11px 11px;
+  border-radius: 360px;
+  width: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-info svg {
+  width: 20px;
+  height: 20px;
+}
+.card-info span {
+  color: var(--white);
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.price-location {
+  display: flex;
+  justify-content: space-between;
+}
+.price-location > div:nth-child(1),
+.price-location > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-location > div:nth-child(1) > div,
+.price-location > div:nth-child(3) > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.price-location > div:nth-child(1) svg,
+.price-location > div:nth-child(3) svg {
+  height: 30px;
+}
+.price-location > div:nth-child(1) > span,
+.price-location > div:nth-child(3) > span {
+  font-size: 16px;
+}
+.price-location > div:nth-child(1) > span {
+  padding-left: 30px;
+}
+.price-location > div:nth-child(3) > div {
+  margin-left: -30px;
+}
+.line {
+  border: 1px solid var(--white);
 }

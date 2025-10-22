@@ -20,6 +20,9 @@
   .custom-select-element {
     width: 26.66%;
   }
+  .card-info {
+    gap: 10px;
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -165,6 +168,9 @@
   .custom-select-element {
     width: 48.5%;
   }
+  .single-card {
+    width: 48.8%;
+  }
 }
 /* ================================================================== */
 /* width 880px */
@@ -202,6 +208,9 @@
   }
   .btn-responsive {
     width: 48.4%;
+  }
+  .single-card {
+    width: 48%;
   }
 
   /* footer */
@@ -243,6 +252,9 @@
   }
   .custom-select-element {
     width: 48.3%;
+  }
+  .single-card {
+    width: 100%;
   }
 
   /* footer */
@@ -292,6 +304,16 @@
   .btn-responsive {
     width: 100%;
   }
+  .card-info {
+    padding: 120px 0 0 0;
+  }
+  .tabs {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    padding: 11px 30px;
+  }
 
   /* footer */
   .sub_email {
@@ -334,5 +356,11 @@
   }
   .text-para {
     font-size: 16px;
+  }
+  .tabs {
+    border-radius: 10px;
+  }
+  .tab-btn {
+    width: 100%;
   }
 }
