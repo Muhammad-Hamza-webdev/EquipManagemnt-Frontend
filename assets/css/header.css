@@ -2,8 +2,11 @@
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  position: relative;
+  z-index: 4;
 }
 .navbar {
+  background-color: var(--white);
   display: flex;
   justify-content: space-between;
   align-items: center;

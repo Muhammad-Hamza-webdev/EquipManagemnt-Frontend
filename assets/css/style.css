@@ -501,6 +501,15 @@ custom select
 }
 
 /* heading */
+
+.text-h1-upp {
+  color: var(--white);
+  font-family: "ClashGrotesk", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .text-h2 {
   color: var(--title-black);
   font-family: "Manrope", sans-serif;
@@ -530,6 +539,17 @@ custom select
   font-size: 16px;
 }
 
+.sub-heading {
+  color: var(--secondary-orange);
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .text-white {
   color: var(--white);
+}
+
+.text-center {
+  text-align: center;
 }

@@ -30,6 +30,16 @@
   .splide__arrow {
     top: -25% !important;
   }
+  .main-box {
+    padding: 80px 90px;
+  }
+  .inner-login {
+    padding: 200px 80px 0 80px;
+  }
+  .form::before,
+  .form::after {
+    clip-path: polygon(0 0, 90% 0, 55% 100%, 100% 100%, 0 100%, 0 0);
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -138,6 +148,19 @@
   .splide__arrow {
     top: -23% !important;
   }
+
+  .inner-login {
+    padding: 200px 60px 0 60px;
+  }
+
+  .main-box {
+    padding: 80px 60px;
+  }
+  .form::before,
+  .form::after {
+    height: 78%;
+    clip-path: polygon(0 0, 90% 0, 50% 100%, 100% 100%, 0 100%, 0 0);
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -164,6 +187,17 @@
   }
   .splide__arrow {
     top: -21% !important;
+  }
+
+  .inner-login {
+    padding: 200px 30px 0 30px;
+  }
+  .main-box {
+    padding: 80px 60px;
+  }
+  .form::before,
+  .form::after {
+    clip-path: polygon(0 0, 90% 0, 50% 100%, 100% 100%, 0 100%, 0 0);
   }
 }
 /* ================================================================== */
@@ -202,13 +236,24 @@
   .splide__arrow {
     top: -28% !important;
   }
+
+  .main-box {
+    padding: 80px 40px;
+  }
+  .form::before,
+  .form::after {
+    clip-path: polygon(0 0, 85% 0, 44% 100%, 100% 100%, 0 100%, 0 0);
+    height: 77%;
+  }
 }
 /* ================================================================== */
 /* width 880px */
 /* ================================================================== */
 @media (max-width: 880px) {
+  .text-h1-upp {
+    font-size: 42px;
+  }
   /* home */
-
   .inner-hero-section {
     padding: 60px 40px 150px 40px;
   }
@@ -255,6 +300,17 @@
   }
   .testimoni {
     padding: 40px 0;
+  }
+
+  .inner-login {
+    padding: 200px 10px 0 10px;
+  }
+  .main-box {
+    padding: 80px 20px;
+  }
+  .form::before,
+  .form::after {
+    clip-path: polygon(0 0, 86% 0, 36% 100%, 100% 100%, 0 100%, 0 0);
   }
 
   /* footer */
@@ -310,6 +366,21 @@
     top: -30.5% !important;
   }
 
+  .inner-login {
+    padding: 200px 0px 0 0px;
+  }
+  .main-box {
+    padding: 80px 10px;
+    gap: 30px;
+  }
+  .dual-btn {
+    gap: 20px;
+  }
+  .form::before,
+  .form::after {
+    clip-path: polygon(0 0, 86% 0, 30% 100%, 100% 100%, 0 100%, 0 0);
+  }
+
   /* footer */
   .footer-logo {
     margin-bottom: 20px;
@@ -328,6 +399,9 @@
 /* width 550px */
 /* ================================================================== */
 @media (max-width: 550px) {
+  .text-h1-upp {
+    font-size: 32px;
+  }
   /* home */
   .slide::after {
     width: 20%;
@@ -380,6 +454,23 @@
   }
   .price-location {
     padding: 20px 0 0 0;
+  }
+
+  .inner-login {
+    padding: 220px 0px 0 0px;
+  }
+  .main-box {
+    gap: 20px;
+    padding: 80px 10px;
+  }
+  .dual-btn {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .form::before,
+  .form::after {
+    clip-path: polygon(0 0, 80% 0, 40% 100%, 100% 100%, 0 100%, 0 0);
+    height: 80%;
   }
 
   /* footer */
@@ -439,5 +530,10 @@
   }
   .splide__arrow {
     top: -20% !important;
+  }
+  .form::before,
+  .form::after {
+    clip-path: polygon(0 0, 74% 0, 32% 100%, 100% 100%, 0 100%, 0 0);
+    height: 81%;
   }
 }

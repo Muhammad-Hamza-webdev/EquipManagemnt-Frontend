@@ -103,12 +103,6 @@
   flex-direction: column;
   gap: 20px;
 }
-.how-works span {
-  color: var(--secondary-orange);
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-}
 
 /* timeline */
 .timeline-card {
