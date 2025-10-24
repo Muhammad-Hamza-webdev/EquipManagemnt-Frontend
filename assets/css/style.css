@@ -366,6 +366,113 @@ custom select
   max-width: 1440px;
 }
 
+/* -------------------------
+inner-page-reg-code
+-------------------------- */
+.reg-page {
+  background: url("../img/a2a778e9d1caddb42db4961360835bbaefcbd12c-1.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: -135px;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+.reg-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(15, 47, 44, 0.82);
+  z-index: -1;
+}
+.inner-login {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  padding: 200px 100px 0 100px;
+}
+.form {
+  position: relative;
+}
+
+.form::before,
+.form::after {
+  position: absolute;
+  top: 0;
+  height: 78%; /* adjust this value (e.g. 50%, 60%, 80%) */
+  content: "";
+  display: block;
+  left: 0;
+  border: 1px solid var(--primary-parrot-green);
+  border-right: none;
+  width: 50%;
+  z-index: 1;
+  clip-path: polygon(0 0, 90% 0, 60% 100%, 100% 100%, 0 100%, 0 0);
+}
+.form::after {
+  left: unset;
+  right: 0;
+  transform: rotateY(180deg);
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding: 80px 160px;
+}
+.img {
+  position: absolute;
+  top: -35px;
+}
+
+/* --------------------------------
+CTA Seation
+------------------------------------- */
+.cta-section {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+.inner-cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-parrot-green);
+  border-radius: 30px;
+  background-image: url("../img/cta-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+  padding: 40px;
+}
+.inner-cta-section img {
+  width: 420px;
+  height: auto;
+  object-fit: cover;
+}
+.cta-info {
+  padding: 70px 40px 70px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.cta-btn {
+  display: flex;
+  gap: 30px;
+}
+
 /* ------------------------------
    Search code
 ------------------------------ */
@@ -431,6 +538,7 @@ custom select
   background-color: transparent;
   font-family: "ClashGrotesk", sans-serif;
   font-weight: 600;
+  font-size: 16px;
   color: var(--primary-dark-green);
   padding: 18px 40px;
   border: 1px solid var(--primary-dark-green);
@@ -449,6 +557,7 @@ custom select
   background-color: var(--primary-dark-green);
   font-family: "ClashGrotesk", sans-serif;
   font-weight: 600;
+  font-size: 16px;
   color: var(--white);
   padding: 18px 40px;
   border: 1px solid var(--primary-dark-green);
@@ -461,12 +570,32 @@ custom select
   border: 1px solid var(--primary-dark-green);
   transition: all 0.3s ease;
 }
+/* darkgreen transparent*/
+.btn-dark-green-trans {
+  text-align: center;
+  background-color: transparent;
+  font-family: "ClashGrotesk", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-dark-green);
+  padding: 18px 40px;
+  border: 1px solid var(--primary-dark-green);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.btn-dark-green-trans:hover {
+  background-color: var(--primary-dark-green);
+  color: var(--white);
+  border: 1px solid var(--primary-dark-green);
+  transition: all 0.3s ease;
+}
 /* parrotgreen */
 .btn-parrot-green {
   text-align: center;
   background-color: var(--primary-parrot-green);
   font-family: "ClashGrotesk", sans-serif;
   font-weight: 600;
+  font-size: 16px;
   color: var(--black);
   padding: 18px 40px;
   border: 1px solid var(--primary-parrot-green);
@@ -487,6 +616,7 @@ custom select
   backdrop-filter: blur(32px);
   font-family: "ClashGrotesk", sans-serif;
   font-weight: 600;
+  font-size: 16px;
   color: var(--white);
   padding: 18px 40px;
   border: 1px solid var(--white);
@@ -500,7 +630,70 @@ custom select
   transition: all 0.3s ease;
 }
 
+/* testimonials */
+.testimoni {
+  background-color: var(--primary-dark-green);
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+.inner-testimoni {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.testimoni-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimoni-title > div > span {
+  color: var(--primary-parrot-green);
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+.testimoni-single-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid var(--white);
+  padding: 0 20px 5px 0;
+}
+.fix-height {
+  height: 150px;
+  max-height: 150px;
+  overflow: hidden;
+}
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.client-info img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  background-color: #ffcd66;
+  border-radius: 360px;
+  object-position: center center;
+}
+.client-info > div > span {
+  color: var(--primary-parrot-green);
+  font-family: "ClashGrotesk", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
 /* heading */
+
+.cta-heading {
+  color: var(--primary-dark-green);
+  font-family: "ClashGrotesk", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  text-transform: capitalize;
+}
 
 .text-h1-upp {
   color: var(--white);
