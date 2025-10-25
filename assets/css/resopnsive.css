@@ -11,7 +11,7 @@
   .inner-hero-section p {
     padding: 0 50% 0 0;
   }
-  .inner-how-it-works > .img {
+  .inner-how-it-works > .how-img {
     width: 47.5%;
   }
   .how-works {
@@ -142,7 +142,7 @@
   .inner-how-it-works {
     gap: 20px;
   }
-  .inner-how-it-works > .img {
+  .inner-how-it-works > .how-img {
     width: 48%;
   }
   .how-works {
@@ -337,7 +337,7 @@
   .inner-how-it-works {
     gap: 60px;
   }
-  .inner-how-it-works > .img {
+  .inner-how-it-works > .how-img {
     width: 100%;
   }
   .how-works {
@@ -525,7 +525,7 @@
   .inner-how-it-works {
     gap: 40px;
   }
-  .inner-how-it-works > .img img {
+  .inner-how-it-works > .how-img img {
     height: 400px;
   }
   .text-h2 {
