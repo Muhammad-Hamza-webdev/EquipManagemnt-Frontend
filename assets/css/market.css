@@ -1,0 +1,27 @@
+/* market-line clip path */
+.market-line {
+  position: relative;
+}
+.market-line::before,
+.market-line::after {
+  position: absolute;
+  top: 0;
+  height: 70%; /* adjust this value (e.g. 50%, 60%, 80%) */
+  content: "";
+  display: block;
+  left: 0;
+  border: 1px solid var(--primary-parrot-green);
+  border-right: none;
+  width: 50%;
+  z-index: 1;
+  clip-path: polygon(0 0, 90% 0, 2% 100%, 100% 100%, 0 100%, 0 0);
+}
+.market-line::after {
+  left: unset;
+  right: 0;
+  transform: rotateY(180deg);
+}
+
+.market-box-fix {
+  padding: 80px 20px;
+}
