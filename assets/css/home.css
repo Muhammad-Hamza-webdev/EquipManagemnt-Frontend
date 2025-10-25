@@ -88,10 +88,10 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.inner-how-it-works > .img {
+.inner-how-it-works > .how-img {
   width: 48%;
 }
-.inner-how-it-works > .img img {
+.inner-how-it-works > .how-img img {
   width: 100%;
   border-radius: 30px;
   object-fit: cover;
