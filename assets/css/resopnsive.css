@@ -20,6 +20,9 @@
   .custom-select-element {
     width: 26.66%;
   }
+  .custom-select-element-2 {
+    width: 25.66%;
+  }
   .card-info {
     gap: 10px;
   }
@@ -32,6 +35,9 @@
   }
   .main-box {
     padding: 80px 90px;
+  }
+  .market-box-fix {
+    padding: 80px 20px;
   }
   .inner-login {
     padding: 200px 80px 0 80px;
@@ -145,6 +151,9 @@
   .custom-select-element {
     width: 48.88%;
   }
+  .custom-select-element-2 {
+    width: 48.7%;
+  }
   .btn-responsive {
     width: 48.88%;
   }
@@ -162,6 +171,9 @@
 
   .main-box {
     padding: 80px 60px;
+  }
+  .market-box-fix {
+    padding: 80px 20px;
   }
   .form::before,
   .form::after {
@@ -218,6 +230,9 @@
   }
   .main-box {
     padding: 80px 60px;
+  }
+  .market-box-fix {
+    padding: 80px 20px;
   }
   .form::before,
   .form::after {
@@ -277,6 +292,10 @@
   .main-box {
     padding: 80px 40px;
   }
+  .market-box-fix {
+    padding: 80px 20px;
+  }
+
   .form::before,
   .form::after {
     clip-path: polygon(0 0, 85% 0, 44% 100%, 100% 100%, 0 100%, 0 0);
@@ -547,7 +566,10 @@
   }
 
   .inner-login {
-    padding: 220px 0px 0 0px;
+    padding: 220px 0 0 0;
+  }
+  .inner-login-2 {
+    padding: 300px 0 0 0;
   }
   .main-box {
     gap: 20px;
@@ -578,6 +600,13 @@
   .why-equip-line::after {
     height: 79%;
     clip-path: polygon(0 0, 80% 0, 56% 100%, 100% 100%, 0 100%, 0 0);
+  }
+  .market-line::before,
+  .market-line::after {
+    clip-path: polygon(0 0, 80% 0, 2% 100%, 100% 100%, 0 100%, 0 0);
+  }
+  .market-page {
+    height: 860px;
   }
 
   .cta-section {
@@ -670,5 +699,9 @@
   .why-equip-line::after {
     height: 82%;
     clip-path: polygon(0 0, 74% 0, 45% 100%, 100% 100%, 0 100%, 0 0);
+  }
+  .market-line::before,
+  .market-line::after {
+    clip-path: polygon(0 0, 74% 0, 2% 100%, 100% 100%, 0 100%, 0 0);
   }
 }
