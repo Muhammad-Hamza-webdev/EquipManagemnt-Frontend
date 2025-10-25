@@ -569,7 +569,7 @@
     padding: 220px 0 0 0;
   }
   .inner-login-2 {
-    padding: 300px 0 100px 0;
+    padding: 300px 0 0 0;
   }
   .inner-search-2 {
     padding: 30px 20px;
@@ -609,7 +609,7 @@
     clip-path: polygon(0 0, 80% 0, 2% 100%, 100% 100%, 0 100%, 0 0);
   }
   .market-page {
-    height: 860px;
+    height: 900px;
   }
 
   .cta-section {
@@ -706,5 +706,11 @@
   .market-line::before,
   .market-line::after {
     clip-path: polygon(0 0, 74% 0, 2% 100%, 100% 100%, 0 100%, 0 0);
+  }
+  .market-page {
+    height: 920px;
+  }
+  .inner-login-2 {
+    padding: 90% 0 0 0;
   }
 }
