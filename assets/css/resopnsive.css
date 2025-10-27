@@ -73,6 +73,14 @@
   .multi-blog-list > div:nth-child(1) {
     width: 60%;
   }
+  /* contact us */
+  .cnt-us {
+    width: 42%;
+    padding: 0 10% 0 0;
+  }
+  .cnt-form {
+    width: 58%;
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -237,6 +245,17 @@
   .multi-blog-list > div:nth-child(1) {
     width: 70%;
   }
+
+  /* contact us */
+  .inner-contact {
+    padding: 0 40px;
+  }
+  .cnt-us {
+    padding: 0 6% 0 0;
+  }
+  .map {
+    margin-top: -100px;
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -316,6 +335,17 @@
   .multi-blog {
     gap: 20px;
     width: 100%;
+  }
+
+  /* contact us */
+  .contact-us {
+    padding: 80px 0 0 0;
+  }
+  .inner-contact {
+    padding: 0 20px;
+  }
+  .map{
+    padding: 0 0 80px 0;
   }
 }
 /* ================================================================== */
@@ -400,6 +430,14 @@
   }
   .success-single-box {
     width: 48.3%;
+  }
+
+  /* contact us */
+  .cnt-us {
+    padding: 0;
+  }
+  .map {
+    margin-top: -60px;
   }
 }
 /* ================================================================== */
@@ -520,6 +558,24 @@
     width: 65%;
   }
 
+  /* contact us */
+  .inner-contact {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+  .cnt-us {
+    width: 100%;
+  }
+  .icon-list-cnt {
+    margin: 0 50% 0 0;
+  }
+  .cnt-form {
+    width: 100%;
+  }
+  .map {
+    margin-top: -20px;
+  }
+
   /* footer */
   .footer-logo span {
     font-size: 20px;
@@ -631,6 +687,20 @@
   /* blog */
   .multi-blog-list > div:nth-child(1) {
     width: 60%;
+  }
+
+  /* contact us  */
+  .icon-list-cnt {
+    margin: 0 40% 0 0;
+  }
+  .contact-us {
+    padding: 60px 0 0 0;
+  }
+  .map{
+    padding: 0 0 60px 0;
+  }
+  .inner-map iframe {
+    height: 500px;
   }
 
   /* footer */
@@ -822,6 +892,27 @@
   }
   .multi-blog-list > div:nth-child(2) {
     width: 100%;
+  }
+
+  /* contact us  */
+  .contact-us {
+    padding: 40px 0 0 0;
+  }
+  .inner-contact {
+    padding: 0;
+  }
+  .icon-list-cnt {
+    margin: 0;
+  }
+  .col-row {
+    flex-direction: column;
+  }
+  .map {
+    margin-top: 0px;
+    padding: 40px 0;
+  }
+  .inner-map iframe {
+    height: 400px;
   }
 
   /* footer */
