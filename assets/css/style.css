@@ -3,7 +3,7 @@
 ------------------------------ */
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 @font-face {
   font-family: "ClashGrotesk";
@@ -84,7 +84,9 @@ a {
 li {
   list-style: none;
 }
-
+.w-full {
+  width: 100%;
+}
 /* ------------------
 custom select
 -------------------- */
@@ -561,6 +563,7 @@ CTA Seation
 ------------------------------ */
 /* white */
 .btn-white {
+  text-transform: uppercase;
   text-align: center;
   background-color: transparent;
   font-family: "ClashGrotesk", sans-serif;
@@ -580,6 +583,7 @@ CTA Seation
 }
 /* darkgreen */
 .btn-dark-green {
+  text-transform: uppercase;
   text-align: center;
   background-color: var(--primary-dark-green);
   font-family: "ClashGrotesk", sans-serif;
@@ -599,6 +603,7 @@ CTA Seation
 }
 /* darkgreen transparent*/
 .btn-dark-green-trans {
+  text-transform: uppercase;
   text-align: center;
   background-color: transparent;
   font-family: "ClashGrotesk", sans-serif;
@@ -618,6 +623,7 @@ CTA Seation
 }
 /* parrotgreen */
 .btn-parrot-green {
+  text-transform: uppercase;
   text-align: center;
   background-color: var(--primary-parrot-green);
   font-family: "ClashGrotesk", sans-serif;
@@ -638,6 +644,7 @@ CTA Seation
 }
 /* white transparent */
 .btn-white-transparent {
+  text-transform: uppercase;
   text-align: center;
   background-color: #ffffff1a;
   backdrop-filter: blur(32px);
@@ -753,8 +760,8 @@ CTA Seation
   font-weight: 700;
 }
 
-.text-h4-blog{
-font-family: "Manrope", sans-serif;
+.text-h4-blog {
+  font-family: "Manrope", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -773,7 +780,7 @@ font-family: "Manrope", sans-serif;
   font-weight: 600;
 }
 
-.text-dark {
+.text-dark-green {
   color: var(--primary-dark-green);
 }
 
