@@ -773,6 +773,10 @@ font-family: "Manrope", sans-serif;
   font-weight: 600;
 }
 
+.text-dark {
+  color: var(--primary-dark-green);
+}
+
 .text-white {
   color: var(--white);
 }
