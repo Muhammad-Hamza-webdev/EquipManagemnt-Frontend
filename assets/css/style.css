@@ -752,6 +752,13 @@ CTA Seation
   font-size: 22px;
   font-weight: 700;
 }
+
+.text-h4-blog{
+font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .text-h4 {
   color: var(--white);
   font-family: "ClashGrotesk", sans-serif;
@@ -769,6 +776,7 @@ CTA Seation
 .text-white {
   color: var(--white);
 }
+
 .text-gray-black {
   color: var(--title-black);
 }
