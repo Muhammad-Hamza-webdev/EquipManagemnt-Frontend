@@ -908,6 +908,9 @@
   .icon-list-cnt {
     margin: 0;
   }
+  .cnt-form {
+    padding: 50px 20px;
+  }
   .col-row {
     flex-direction: column;
   }
