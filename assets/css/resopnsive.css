@@ -53,8 +53,11 @@
     height: 79%;
     clip-path: polygon(0 0, 90% 0, 74% 100%, 100% 100%, 0 100%, 0 0);
   }
-   .img-area img {
+  .img-area img {
     height: 707px;
+  }
+  .para-btn p {
+    width: 52%;
   }
 }
 /* ================================================================== */
@@ -203,6 +206,9 @@
   .img-area img {
     height: 767px;
   }
+  .para-btn p {
+    width: 58%;
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -211,10 +217,13 @@
   .inner-hero-section h1 {
     padding: 0 25% 0 0;
   }
-  .how-it-work , .features , .faq{
+  .how-it-work,
+  .features,
+  .faq,
+  .popular {
     padding: 80px 0;
   }
-  
+
   .custom-select-element {
     width: 48.8%;
   }
@@ -319,11 +328,15 @@
   .why-equip-line::after {
     height: 82%;
   }
-  .box-area , .img-area{
-  width: 100%;
+  .box-area,
+  .img-area {
+    width: 100%;
   }
-   .img-area img {
+  .img-area img {
     height: auto;
+  }
+  .para-btn p {
+    width: 70%;
   }
 }
 /* ================================================================== */
@@ -422,6 +435,16 @@
   .cta-btn {
     flex-direction: row;
   }
+  .inner-popular {
+    gap: 20px;
+  }
+  .para-btn {
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  .para-btn p {
+    width: 100%;
+  }
 
   /* footer */
   .footer-logo span {
@@ -452,7 +475,10 @@
   .inner-hero-section p {
     padding: 0 0% 0 0;
   }
-  .how-it-work , .features , .faq{
+  .how-it-work,
+  .features,
+  .faq,
+  .popular {
     padding: 60px 0;
   }
   .inner-search {
@@ -536,7 +562,10 @@
     padding: 0;
     font-size: 32px;
   }
-  .how-it-work , .features , .faq{
+  .how-it-work,
+  .features,
+  .faq,
+  .popular {
     padding: 40px 0;
   }
   .inner-how-it-works {
@@ -643,23 +672,23 @@
   .cta-btn {
     flex-direction: column;
   }
-  
+
   .inner-cta-section img {
     width: 100%;
   }
   .single-icon-box {
-  width: 100%;
+    width: 100%;
   }
   ul.accordion-list li h3 {
-  font-size: 18px;
+    font-size: 18px;
   }
   ul.accordion-list {
-  padding: 20px 0 0 0;
+    padding: 20px 0 0 0;
   }
   .inner-faq {
-  gap: 20px;
-  align-items: start;
-}
+    gap: 20px;
+    align-items: start;
+  }
 
   /* footer */
   .footer {
