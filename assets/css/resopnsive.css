@@ -571,6 +571,7 @@
   }
   .cnt-form {
     width: 100%;
+    padding: 50px 40px;
   }
   .map {
     margin-top: -20px;
@@ -695,6 +696,9 @@
   }
   .contact-us {
     padding: 60px 0 0 0;
+  }
+  .cnt-form {
+    padding: 50px 30px;
   }
   .map {
     padding: 0 0 60px 0;
