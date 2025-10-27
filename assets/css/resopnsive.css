@@ -220,7 +220,8 @@
   .how-it-work,
   .features,
   .faq,
-  .popular {
+  .popular,
+  .success {
     padding: 80px 0;
   }
 
@@ -337,6 +338,13 @@
   }
   .para-btn p {
     width: 70%;
+  }
+  .success-boxs {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .success-single-box {
+    width: 48.3%;
   }
 }
 /* ================================================================== */
@@ -478,7 +486,8 @@
   .how-it-work,
   .features,
   .faq,
-  .popular {
+  .popular,
+  .success {
     padding: 60px 0;
   }
   .inner-search {
@@ -565,7 +574,8 @@
   .how-it-work,
   .features,
   .faq,
-  .popular {
+  .popular,
+  .success {
     padding: 40px 0;
   }
   .inner-how-it-works {
@@ -689,6 +699,9 @@
     gap: 20px;
     align-items: start;
   }
+  .success-single-box {
+    width: 47%;
+  }
 
   /* footer */
   .footer {
@@ -773,5 +786,8 @@
   }
   .inner-login-2 {
     padding: 90% 0 0 0;
+  }
+  .success-single-box span {
+    font-size: 38px;
   }
 }
