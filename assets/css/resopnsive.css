@@ -286,6 +286,9 @@
   .blog {
     padding: 120px 0 200px 0;
   }
+  .customer {
+    padding: 0 0 80px 0;
+  }
   .social {
     width: 45%;
   }
@@ -363,6 +366,14 @@
   /* landloard */
   .feature-info {
     padding: 0;
+  }
+
+  /* em-tracking */
+  .customer-boxs {
+    flex-wrap: wrap;
+  }
+  .single-customer-box {
+    width: 49%;
   }
 }
 /* ================================================================== */
@@ -455,6 +466,11 @@
   }
   .map {
     margin-top: -60px;
+  }
+
+  /* em-tracking */
+  .single-customer-box {
+    width: 48.9%;
   }
 }
 /* ================================================================== */
@@ -617,6 +633,11 @@
     width: 100%;
   }
 
+  /* em-tracking */
+  .single-customer-box {
+    width: 48.7%;
+  }
+
   /* footer */
   .footer-logo span {
     font-size: 20px;
@@ -657,6 +678,9 @@
   }
   .blog {
     padding: 60px 0 180px 0;
+  }
+  .customer {
+    padding: 0 0 60px 0;
   }
   .inner-cta {
     flex-direction: column-reverse;
@@ -749,6 +773,11 @@
     height: 500px;
   }
 
+  /* em-tracking */
+  .single-customer-box {
+    width: 48.5%;
+  }
+
   /* footer */
   .footer-logo {
     margin-bottom: 20px;
@@ -784,7 +813,8 @@
   .popular,
   .success,
   .setp-process,
-  .feature {
+  .feature,
+  .customer {
     padding: 40px 0;
   }
   .blog {
@@ -985,6 +1015,11 @@
   }
   .feature-info {
     gap: 20px;
+  }
+
+  /* em-tracking */
+  .single-customer-box {
+    width: 100%;
   }
 
   /* footer */
