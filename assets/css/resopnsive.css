@@ -946,6 +946,9 @@
   .workforce {
     padding: 12px;
   }
+  .timeline {
+    gap: 0px;
+  }
   .timeline-card {
     align-items: start;
   }
