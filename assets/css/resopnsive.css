@@ -81,6 +81,11 @@
   .cnt-form {
     width: 58%;
   }
+
+  /* landloard */
+  .feature-info {
+    padding: 0 8% 0 0;
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -256,6 +261,11 @@
   .map {
     margin-top: -100px;
   }
+
+  /* landloard */
+  .feature-info {
+    padding: 0 2% 0 0;
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -269,7 +279,8 @@
   .faq,
   .popular,
   .success,
-  .setp-process {
+  .setp-process,
+  .feature {
     padding: 80px 0;
   }
   .blog {
@@ -347,6 +358,11 @@
   }
   .map {
     padding: 0 0 80px 0;
+  }
+
+  /* landloard */
+  .feature-info {
+    padding: 0;
   }
 }
 /* ================================================================== */
@@ -591,6 +607,15 @@
   .for-equip-info {
     width: 100%;
   }
+  .inner-feature {
+    flex-wrap: wrap-reverse;
+  }
+  .feature-img {
+    width: 100%;
+  }
+  .feature-info {
+    width: 100%;
+  }
 
   /* footer */
   .footer-logo span {
@@ -626,7 +651,8 @@
   .faq,
   .popular,
   .success,
-  .setp-process {
+  .setp-process,
+  .feature {
     padding: 60px 0;
   }
   .blog {
@@ -757,7 +783,8 @@
   .faq,
   .popular,
   .success,
-  .setp-process {
+  .setp-process,
+  .feature {
     padding: 40px 0;
   }
   .blog {
@@ -830,7 +857,9 @@
     gap: 20px;
     flex-direction: column;
   }
-
+  .text-h4-blog {
+    font-size: 20px;
+  }
   .p-30 {
     padding-top: 30px;
   }
@@ -953,6 +982,9 @@
   }
   .timeline-card {
     align-items: start;
+  }
+  .feature-info {
+    gap: 20px;
   }
 
   /* footer */
