@@ -268,7 +268,8 @@
   .features,
   .faq,
   .popular,
-  .success {
+  .success,
+  .setp-process {
     padding: 80px 0;
   }
   .blog {
@@ -577,6 +578,20 @@
     margin-top: -20px;
   }
 
+  /* landlords */
+  .workforce {
+    flex-direction: column-reverse;
+  }
+  .col-reverse {
+    flex-direction: column;
+  }
+  .for-equip-img {
+    width: 100%;
+  }
+  .for-equip-info {
+    width: 100%;
+  }
+
   /* footer */
   .footer-logo span {
     font-size: 20px;
@@ -610,7 +625,8 @@
   .features,
   .faq,
   .popular,
-  .success {
+  .success,
+  .setp-process {
     padding: 60px 0;
   }
   .blog {
@@ -740,7 +756,8 @@
   .features,
   .faq,
   .popular,
-  .success {
+  .success,
+  .setp-process {
     padding: 40px 0;
   }
   .blog {
@@ -922,6 +939,17 @@
     height: 400px;
   }
 
+  /* landlord */
+  .inner-setp-process {
+    gap: 20px;
+  }
+  .workforce {
+    padding: 12px;
+  }
+  .timeline-card {
+    align-items: start;
+  }
+
   /* footer */
   .footer {
     padding: 40px 0 30px 0;
@@ -982,7 +1010,7 @@
   }
   .form::before,
   .form::after {
-    clip-path: polygon(0 0, 74% 0, 32% 100%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(0 0, 74% 0, 28% 100%, 100% 100%, 0 100%, 0 0);
     height: 81%;
   }
   .sqaure-line::before,
