@@ -874,7 +874,9 @@
   .cta-btn {
     flex-direction: column;
   }
-
+  .testimoni-single-card {
+    padding: 0;
+  }
   .inner-cta-section img {
     width: 100%;
   }
