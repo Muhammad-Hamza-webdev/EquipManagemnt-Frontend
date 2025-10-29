@@ -399,7 +399,7 @@
   background-size: cover;
 }
 .single-slide-box {
-  width: 25%;
+  width: 360px;
   border-right: 1px solid var(--white);
   padding: 24px;
   display: flex;
