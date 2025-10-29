@@ -373,7 +373,7 @@
 .popular {
   display: flex;
   justify-content: center;
-  padding: 120px 0;
+  padding: 120px 0 0 0;
 }
 .inner-popular {
   display: flex;
@@ -397,6 +397,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 120px;
 }
 .single-slide-box {
   width: 360px;
@@ -409,6 +410,7 @@
   position: relative;
   overflow: hidden;
   transition: all 0.6s ease;
+  margin-bottom: -1px;
 }
 .single-slide-box:hover .text-h3 {
   transition: all 0.6s ease;
@@ -439,11 +441,11 @@
   pointer-events: none;
 }
 
-.single-slide-box:nth-child(odd)::before {
+.swiper-slide:nth-child(odd) .single-slide-box::before {
   background-image: url('data:image/svg+xml;utf8,<svg width="330" height="366" viewBox="0 0 330 366" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_2218_3652" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="330" height="366"><foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(11px);clip-path:url(%23bgblur_0_2218_3652_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="22"><mask id="path-1-inside-1_2218_3652" fill="white"><path d="M0 0H330V366H0V0Z"/></mask><path d="M0 0H330V366H0V0Z" fill="%2334FF67"/><path d="M330 0H329V366H330H331V0H330Z" fill="white" mask="url(%23path-1-inside-1_2218_3652)"/></g></mask><g mask="url(%23mask0_2218_3652)"><path d="M393.132 257.432C409.723 296.859 368.755 349.985 333.163 378.835C297.886 407.89 267.929 412.407 218.468 399.342C168.749 386.332 99.4696 355.48 97.8855 313.924C96.3015 272.368 162.672 220.053 232.774 206.657C302.82 193.001 376.857 218.209 393.132 257.432Z" fill="white" fill-opacity="0.05"/></g><defs><clipPath id="bgblur_0_2218_3652_clip_path" transform="translate(0 0)"><path d="M0 0H330V366H0V0Z"/></clipPath></defs></svg>');
 }
 
-.single-slide-box:nth-child(even)::before {
+.swiper-slide:nth-child(even) .single-slide-box::before {
   background-image: url('data:image/svg+xml;utf8,<svg width="330" height="366" viewBox="0 0 330 366" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_2218_3648" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="330" height="366"><foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(11px);clip-path:url(%23bgblur_0_2218_3648_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="22"><mask id="path-1-inside-1_2218_3648" fill="white"><path d="M0 0H330V366H0V0Z"/></mask><path d="M0 0H330V366H0V0Z" fill="%2334FF67"/><path d="M330 0H329V366H330H331V0H330Z" fill="white" mask="url(%23path-1-inside-1_2218_3648)"/></g></mask><g mask="url(%23mask0_2218_3648)"><path d="M393.131 20.3434C409.722 59.7706 368.754 112.897 333.162 141.747C297.885 170.801 267.928 175.319 218.468 162.254C168.748 149.244 99.4686 118.392 97.8845 76.8356C96.3005 35.2796 162.671 -17.0354 232.773 -30.4311C302.819 -44.087 376.856 -18.8792 393.131 20.3434Z" fill="white" fill-opacity="0.05"/></g><defs><clipPath id="bgblur_0_2218_3648_clip_path" transform="translate(0 0)"><path d="M0 0H330V366H0V0Z"/></clipPath></defs></svg>');
 }
 
@@ -453,13 +455,13 @@
   background-color: var(--primary-parrot-green);
 }
 
-.single-slide-box:nth-child(odd):hover::before {
+.swiper-slide:nth-child(odd) .single-slide-box:hover::before {
   transform: scale(1.1);
   opacity: 1;
   background-image: url('data:image/svg+xml;utf8,<svg width="330" height="366" viewBox="0 0 330 366" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_2218_3652" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="330" height="366"><foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(11px);clip-path:url(%23bgblur_0_2218_3652_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="22"><mask id="path-1-inside-1_2218_3652" fill="white"><path d="M0 0H330V366H0V0Z"/></mask><path d="M0 0H330V366H0V0Z" fill="%2334FF67"/><path d="M330 0H329V366H330H331V0H330Z" fill="black" mask="url(%23path-1-inside-1_2218_3652)"/></g></mask><g mask="url(%23mask0_2218_3652)"><path d="M393.132 257.432C409.723 296.859 368.755 349.985 333.163 378.835C297.886 407.89 267.929 412.407 218.468 399.342C168.749 386.332 99.4696 355.48 97.8855 313.924C96.3015 272.368 162.672 220.053 232.774 206.657C302.82 193.001 376.857 218.209 393.132 257.432Z" fill="black" fill-opacity="0.05"/></g><defs><clipPath id="bgblur_0_2218_3652_clip_path" transform="translate(0 0)"><path d="M0 0H330V366H0V0Z"/></clipPath></defs></svg>');
 }
 
-.single-slide-box:nth-child(even):hover::before {
+.swiper-slide:nth-child(even) .single-slide-box:hover::before {
   transform: scale(1.1);
   opacity: 1;
   background-image: url('data:image/svg+xml;utf8,<svg width="330" height="366" viewBox="0 0 330 366" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_2218_3648" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="330" height="366"><foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(11px);clip-path:url(%23bgblur_0_2218_3648_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="22"><mask id="path-1-inside-1_2218_3648" fill="white"><path d="M0 0H330V366H0V0Z"/></mask><path d="M0 0H330V366H0V0Z" fill="%2334FF67"/><path d="M330 0H329V366H330H331V0H330Z" fill="black" mask="url(%23path-1-inside-1_2218_3648)"/></g></mask><g mask="url(%23mask0_2218_3648)"><path d="M393.131 20.3434C409.722 59.7706 368.754 112.897 333.162 141.747C297.885 170.801 267.928 175.319 218.468 162.254C168.748 149.244 99.4686 118.392 97.8845 76.8356C96.3005 35.2796 162.671 -17.0354 232.773 -30.4311C302.819 -44.087 376.856 -18.8792 393.131 20.3434Z" fill="black" fill-opacity="0.05"/></g><defs><clipPath id="bgblur_0_2218_3648_clip_path" transform="translate(0 0)"><path d="M0 0H330V366H0V0Z"/></clipPath></defs></svg>');
@@ -544,25 +546,33 @@
   width: 100%;
   align-items: center;
 }
+
 .company-list {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
 }
+
 .company-list div {
+  width: 100%;
+  padding: 0px 0;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #9e9e9e;
-  padding: 37px 61px;
-}
-.company-list div:nth-child(2) {
-  padding: 33px 61px;
-}
-.company-list div:nth-child(3) {
-  padding: 36px 61px;
-}
-.company-list div:nth-child(4) {
-  padding: 34px 61px;
+  /* border-left: none; */
+  /* &:nth-child(1) {
+    border-left: 1px solid #9e9e9e;
+  } */
 }
 
+.company-list div svg {
+  height: 40px;
+}
+
+/* blogs */
 .blog {
   display: flex;
   justify-content: center;

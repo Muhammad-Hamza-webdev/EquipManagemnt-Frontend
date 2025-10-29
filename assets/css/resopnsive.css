@@ -63,6 +63,21 @@
     width: 45%;
   }
 
+  .single-slide-box {
+    width: 307px;
+  }
+  .text-h3 {
+    font-size: 20px;
+  }
+  /* catbtn-next */
+  .categorySwiper-next {
+    right: 44% !important;
+  }
+  /* catbtn-prev */
+  .categorySwiper-prev {
+    left: 44% !important;
+  }
+
   /* blog */
   .multi-blog {
     gap: 65px;
@@ -236,6 +251,12 @@
   .cta-section-top {
     width: 50%;
   }
+  .single-slide-box {
+    width: 270px;
+  }
+  .text-h3 {
+    font-size: 18px;
+  }
 
   /* blog */
   .blog {
@@ -271,11 +292,13 @@
   .how-it-work,
   .features,
   .faq,
-  .popular,
   .success,
   .setp-process,
   .feature {
     padding: 80px 0;
+  }
+  .popular {
+    padding: 80px 0 0 0;
   }
   .blog {
     padding: 120px 0 200px 0;
@@ -328,6 +351,12 @@
   .cta-btn {
     flex-direction: column;
     align-items: start;
+  }
+  .single-slide-box {
+    width: 342px;
+  }
+  .text-h3 {
+    font-size: 22px;
   }
 
   /* blog */
@@ -444,6 +473,12 @@
   }
   .success-single-box {
     width: 48.3%;
+  }
+  .single-slide-box {
+    width: 307px;
+  }
+  .text-h3 {
+    font-size: 20px;
   }
 
   /* contact us */
@@ -568,6 +603,17 @@
   .cta-section-top {
     width: 70%;
   }
+  .single-slide-box {
+    width: 396px;
+  }
+  /* catbtn-next */
+  .categorySwiper-next {
+    right: 42% !important;
+  }
+  /* catbtn-prev */
+  .categorySwiper-prev {
+    left: 42% !important;
+  }
 
   /* blog */
   .multi-blog-list > div:nth-child(1) {
@@ -653,11 +699,13 @@
   .how-it-work,
   .features,
   .faq,
-  .popular,
   .success,
   .setp-process,
   .feature {
     padding: 60px 0;
+  }
+  .popular {
+    padding: 60px 0 0 0;
   }
   .blog {
     padding: 60px 0 180px 0;
@@ -729,6 +777,17 @@
   .cta-section {
     padding: 60px 0;
   }
+  .single-slide-box {
+    width: 346px;
+  }
+  /* catbtn-next */
+  .categorySwiper-next {
+    right: 40% !important;
+  }
+  /* catbtn-prev */
+  .categorySwiper-prev {
+    left: 40% !important;
+  }
 
   /* blog */
   .multi-blog-list > div:nth-child(1) {
@@ -789,12 +848,14 @@
   .how-it-work,
   .features,
   .faq,
-  .popular,
   .success,
   .setp-process,
   .feature,
   .customer {
     padding: 40px 0;
+  }
+  .popular {
+    padding: 40px 0 0 0;
   }
   .blog {
     padding: 40px 0 160px 0;
@@ -933,6 +994,20 @@
   }
   .success-single-box {
     width: 47%;
+  }
+  .bg-slider {
+    padding: 240px 0 0 0;
+  }
+  .single-slide-box {
+    width: 100%;
+  }
+  /* catbtn-next */
+  .categorySwiper-next {
+    right: 38% !important;
+  }
+  /* catbtn-prev */
+  .categorySwiper-prev {
+    left: 38% !important;
   }
 
   /* blog */
@@ -1084,5 +1159,13 @@
   }
   .success-single-box span {
     font-size: 38px;
+  }
+  /* catbtn-next */
+  .categorySwiper-next {
+    right: 33% !important;
+  }
+  /* catbtn-prev */
+  .categorySwiper-prev {
+    left: 33% !important;
   }
 }

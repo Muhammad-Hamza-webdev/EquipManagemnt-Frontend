@@ -53,12 +53,12 @@ var swiper2 = new Swiper(".categorySwiper", {
   spaceBetween: 30,
   loop: true,
   autoplay: {
-    delay: 1000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   navigation: {
-    nextEl: ".categorySwiper-next", // Unique selector
-    prevEl: ".categorySwiper-prev", // Unique selector
+    nextEl: ".categorySwiper-next",
+    prevEl: ".categorySwiper-prev",
   },
   breakpoints: {
     1366: {
@@ -70,19 +70,19 @@ var swiper2 = new Swiper(".categorySwiper", {
       spaceBetween: 0,
     },
     1140: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 0,
     },
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 0,
     },
     880: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 0,
     },
     768: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 0,
     },
     550: {
@@ -91,6 +91,52 @@ var swiper2 = new Swiper(".categorySwiper", {
     },
     0: {
       slidesPerView: 1,
+      spaceBetween: 0,
+    },
+  },
+});
+
+// company list
+var swiper = new Swiper(".company-swiper", {
+  slidesPerView: 6,
+  spaceBetween: 20,
+  loop: true,
+  speed: 1000, 
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    1366: {
+      slidesPerView: 6,
+      spaceBetween: 0,
+    },
+    1200: {
+      slidesPerView: 5,
+      spaceBetween: 0,
+    },
+    1140: {
+      slidesPerView: 5,
+      spaceBetween: 0,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 0,
+    },
+    880: {
+      slidesPerView: 4,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+    },
+    550: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+    0: {
+      slidesPerView: 2,
       spaceBetween: 0,
     },
   },

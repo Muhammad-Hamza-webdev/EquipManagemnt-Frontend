@@ -87,6 +87,11 @@ li {
 .w-full {
   width: 100%;
 }
+
+.company-swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
 /* ------------------
 custom select
 -------------------- */
@@ -692,6 +697,21 @@ CTA Seation
 .swiper-button-next:hover path,
 .swiper-button-prev:hover path {
   fill: #0f2f2c !important;
+}
+
+/* catbtn-next */
+.categorySwiper-next {
+  top: 510px !important;
+  background-color: var(--primary-dark-green) !important;
+  border: 1px solid var(--primary-dark-green) !important;
+  right: 46% !important;
+}
+/* catbtn-prev */
+.categorySwiper-prev {
+  top: 510px !important;
+  background-color: var(--primary-dark-green) !important;
+  border: 1px solid var(--primary-dark-green) !important;
+  left: 46% !important;
 }
 
 /* testimonials */
