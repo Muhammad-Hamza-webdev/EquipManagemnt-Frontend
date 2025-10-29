@@ -534,30 +534,6 @@ CTA Seation
   justify-content: space-between;
 }
 
-.splide__arrow {
-  height: 4em !important;
-  width: 4em !important;
-  top: -29% !important;
-  background: var(--primary-dark-green) !important;
-  border: 1px solid var(--primary-parrot-green) !important;
-}
-.splide__arrow:hover {
-  background: var(--primary-parrot-green) !important;
-  border: 1px solid var(--primary-parrot-green) !important;
-}
-.splide__arrow:hover svg path {
-  fill: var(--primary-dark-green) !important;
-}
-.splide__arrow--next {
-  right: 0em !important;
-  transform: translateY(-50%) rotate(180deg) !important;
-}
-.splide__arrow--prev {
-  left: unset !important;
-  right: 6em !important;
-  transform: translateY(-50%) rotate(180deg) !important;
-}
-
 /* ------------------------------
    button code
 ------------------------------ */
@@ -662,6 +638,60 @@ CTA Seation
   color: var(--black);
   border: 1px solid var(--primary-parrot-green);
   transition: all 0.3s ease;
+}
+
+.swiper {
+  width: 100%;
+  overflow: unset !important;
+}
+.overflow-hide {
+  overflow: hidden;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: -70px !important;
+  width: 50px !important;
+  height: 50px !important;
+  background: transparent !important;
+  border: 1px solid #34ff67 !important;
+  border-radius: 360px !important;
+  transition: all 0.3s ease !important;
+  color: #00000000 !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #34ff67 !important;
+  border-color: #34ff67 !important;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 14px !important;
+  height: 14px !important;
+  transition: all 0.3s ease !important;
+}
+.swiper-button-next svg {
+  transform: rotate(180deg) !important;
+  margin: 0 -12px 0 12px !important;
+}
+.swiper-button-prev svg {
+  margin: 0 -12px 0 12px !important;
+}
+.swiper-button-prev {
+  left: unset !important;
+  right: 70px !important;
+}
+.swiper-button-next path,
+.swiper-button-prev path {
+  fill: #34ff67 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-button-next:hover path,
+.swiper-button-prev:hover path {
+  fill: #0f2f2c !important;
 }
 
 /* testimonials */

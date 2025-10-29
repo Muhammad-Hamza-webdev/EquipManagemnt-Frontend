@@ -1,24 +1,47 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const splide = new Splide(".splide", {
-    type: "loop",
-    perPage: 3,
-    perMove: 1,
-    gap: "2rem",
-    focus: "center",
-    pagination: false,
-    arrows: true,
-    autoplay: false,
-    drag: true,
-    breakpoints: {
-      1366: { perPage: 3 },
-      1200: { perPage: 3 },
-      1140: { perPage: 3 },
-      1024: { perPage: 3 },
-      880: { perPage: 1 },
-      768: { perPage: 1 },
-      550: { perPage: 1 },
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    1366: {
+      slidesPerView: 3,
+      spaceBetween: 20,
     },
-  });
-
-  splide.mount();
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1140: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    880: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    550: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+  },
 });
