@@ -25,3 +25,97 @@
 .market-box-fix {
   padding: 80px 20px;
 }
+
+.equipment {
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+  background-color: var(--off-white);
+}
+
+.inner-equipment {
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger {
+  height: 50px;
+  width: 50px;
+  transform: 0.2s;
+  position: relative;
+}
+.hamburger .checkbox {
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.hamburger-options {
+  display: none;
+  background-color: var(--white);
+  padding: 20px;
+  width: 140px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 60px 0px #0000000f;
+  right: 140px;
+  position: relative;
+  top: -50px;
+  border: 1px solid #d2d2d2;
+}
+.hamburger-options ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hamburger-options ul li {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--title-black);
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.hamburger-options ul li:hover {
+  transition: all 0.3s ease;
+  color: var(--primary-dark-green);
+  font-weight: 700;
+}
+.hamburger .checkbox:checked ~ .hamburger-options {
+  display: block;
+}
+.line {
+  transition: 0.5s;
+  stroke-width: 4px;
+  stroke: var(--black);
+}
+.lineTop {
+  stroke-dasharray: 40 40;
+  stroke-dashoffset: 25;
+}
+.lineBottom {
+  stroke-dasharray: 40 40;
+  stroke-dashoffset: 60;
+}
+.lineMid {
+  stroke-dasharray: 40 40;
+}
+.hamburger .checkbox:checked + svg .line {
+  stroke: var(--primary-dark-green);
+}
+.hamburger .checkbox:checked + svg .lineTop {
+  stroke-dashoffset: 0;
+  transform-origin: left;
+  transform: rotateZ(45deg) translate(-7px, -5px);
+}
+.hamburger .checkbox:checked + svg .lineMid {
+  stroke-dashoffset: 40;
+}
+.hamburger .checkbox:checked + svg .lineBottom {
+  stroke-dashoffset: 0;
+  transform-origin: left;
+  transform: rotateZ(-45deg) translate(-5px, 5px);
+}
