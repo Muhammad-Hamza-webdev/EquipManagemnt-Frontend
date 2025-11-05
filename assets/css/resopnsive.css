@@ -98,6 +98,14 @@
   .feature-info {
     padding: 0 8% 0 0;
   }
+
+  /* why equip */
+  .company-info {
+    padding: 0 50px 0 0;
+  }
+  .inner-customer {
+    padding: 0 40px;
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -289,6 +297,18 @@
   .equipment-grid.compact-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* why equip */
+  .company-info {
+    padding: 0;
+    gap: 20px;
+  }
+  .inner-mission {
+    padding: 120px 120px 200px 120px;
+  }
+  .inner-customer {
+    padding: 0 20px;
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -303,7 +323,8 @@
   .success,
   .setp-process,
   .feature,
-  .equipment {
+  .equipment,
+  .company_story {
     padding: 80px 0;
   }
   .popular {
@@ -399,9 +420,24 @@
   /* em-tracking */
   .customer-boxs {
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   .single-customer-box {
     width: 49%;
+  }
+
+  /* why equip */
+  .company-info {
+    gap: 10px;
+  }
+  .inner-mission {
+    padding: 80px 80px 200px 80px;
+  }
+  .inner-customer {
+    padding: 0;
+  }
+  .benfi {
+    padding: 0 0 200px 0;
   }
 }
 /* ================================================================== */
@@ -501,6 +537,11 @@
   /* em-tracking */
   .single-customer-box {
     width: 48.9%;
+  }
+
+  /* why equip */
+  .inner-mission {
+    padding: 80px 40px 200px 40px;
   }
 }
 /* ================================================================== */
@@ -684,6 +725,19 @@
     width: 48.7%;
   }
 
+  /* why equip */
+  .inner-company {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .company-info {
+    width: 100%;
+    gap: 20px;
+  }
+  .company-img {
+    width: 100%;
+  }
+
   /* footer */
   .footer-logo span {
     font-size: 20px;
@@ -719,7 +773,8 @@
   .success,
   .setp-process,
   .feature,
-  .equipment {
+  .equipment,
+  .company_story {
     padding: 60px 0;
   }
   .popular {
@@ -834,6 +889,11 @@
     width: 48.5%;
   }
 
+  /* why equip */
+  .benfi {
+    padding: 0 0 200px 0;
+  }
+
   /* footer */
   .footer-logo {
     margin-bottom: 20px;
@@ -870,7 +930,8 @@
   .setp-process,
   .feature,
   .customer,
-  .equipment {
+  .equipment,
+  .company_story {
     padding: 40px 0;
   }
   .popular {
@@ -1107,6 +1168,19 @@
   /* em-tracking */
   .single-customer-box {
     width: 100%;
+  }
+
+  /* why equip */
+  .inner-mission {
+    padding: 40px 10px 300px 10px;
+    gap: 10px;
+  }
+  .sub-heading-h2 {
+    font-size: 24px;
+  }
+  .benfi {
+    margin-top: -260px;
+    padding: 0 0 180px 0;
   }
 
   /* footer */
