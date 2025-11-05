@@ -154,11 +154,14 @@
 }
 
 /* hamburger end */
-
 .equipment-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.equipment-grid.compact-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
 }
 .single-equipment-grid {
   display: flex;

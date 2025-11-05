@@ -286,6 +286,9 @@
   .equipment-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .equipment-grid.compact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -671,6 +674,9 @@
   /* marketplace */
   .equipment-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .equipment-grid.compact-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   /* em-tracking */
@@ -1092,6 +1098,9 @@
 
   /* marketplace */
   .equipment-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .equipment-grid.compact-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 
