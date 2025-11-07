@@ -384,6 +384,13 @@
   color: #1a1a1a;
   font-weight: 600;
 }
+
+.text-month-name {
+  color: #1a1a1a;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
 .month-calender {
   font-family: "Manrope", sans-serif;
   font-size: 18px;
@@ -450,5 +457,8 @@
   background-color: var(--primary-parrot-green);
 }
 .hide {
+  display: none;
+}
+.show-sm {
   display: none;
 }

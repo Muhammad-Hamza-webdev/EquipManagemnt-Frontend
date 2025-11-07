@@ -114,6 +114,21 @@
   .product-showcase-sub-img img {
     height: 200px;
   }
+  .single-owner-info {
+    gap: 10px;
+  }
+  .single-owner-info:first-child {
+    width: 37%;
+  }
+  .single-owner-info:not(:first-child) {
+    width: 29%;
+  }
+  .prev-section {
+    gap: 80px;
+  }
+  .next-section {
+    gap: 80px;
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -317,6 +332,23 @@
   .inner-customer {
     padding: 0 20px;
   }
+
+  /* product detail */
+  .owner-para-fat {
+    font-size: 16px;
+  }
+  .owner-para-thin {
+    font-size: 14px;
+  }
+  .product-form {
+    width: 100%;
+  }
+  .prev-section {
+    gap: 50px;
+  }
+  .next-section {
+    gap: 50px;
+  }
 }
 /* ================================================================== */
 /* width 1140px */
@@ -448,6 +480,18 @@
   .benfi {
     padding: 0 0 200px 0;
   }
+
+  /* product detail */
+  .heavy-duty-main {
+    flex-wrap: wrap;
+  }
+  .heavy-duty {
+    width: 100%;
+    gap: 20px;
+  }
+  .heavy-duty-feature {
+    width: 100%;
+  }
 }
 /* ================================================================== */
 /* width 1024px */
@@ -531,7 +575,8 @@
   .single-slide-box {
     width: 307px;
   }
-  .text-h3 {
+  .text-h3,
+  .text-month-name {
     font-size: 20px;
   }
 
@@ -562,6 +607,21 @@
   }
   .product-showcase-sub-img img {
     height: 140px;
+  }
+  .calender-main {
+    flex-wrap: wrap;
+  }
+  .calender {
+    width: 100%;
+  }
+  .prev-section {
+    gap: 110px;
+  }
+  .next-section {
+    gap: 110px;
+  }
+  .booking-form {
+    width: 100%;
   }
 }
 /* ================================================================== */
@@ -781,6 +841,12 @@
   .product-showcase-sub-img img:nth-child(3) {
     border-radius: 0 0 0 20px;
   }
+  .prev-section {
+    gap: 80px;
+  }
+  .next-section {
+    gap: 80px;
+  }
 
   /* footer */
   .footer-logo span {
@@ -945,6 +1011,12 @@
   }
   .product-showcase-sub-img img {
     height: 160px;
+  }
+  .prev-section {
+    gap: 50px;
+  }
+  .next-section {
+    gap: 50px;
   }
 
   /* footer */
@@ -1243,6 +1315,55 @@
   }
   .share-save {
     justify-content: end;
+  }
+
+  /* product detail */
+  .owner-info-main {
+    gap: 0;
+  }
+  .owner-info {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .single-owner-info:first-child {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #52646421;
+    padding: 20px 0;
+  }
+  .single-owner-info:not(:first-child) {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #52646421;
+    padding: 20px 0;
+  }
+  .show-sm {
+    display: block;
+  }
+  .hide-sm {
+    display: none;
+  }
+  .prev-section {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .first-month {
+    width: 100%;
+    border-right: none;
+    padding: 30px 0 0 0;
+  }
+  .prev,
+  .next {
+    padding: 6px 3px;
+  }
+  .year {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .month {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .text-month-name{
+    font-size: 16px;
   }
 
   /* footer */

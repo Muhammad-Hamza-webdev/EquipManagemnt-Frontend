@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ✅ Generate years 2025–2035 with the required classes
   yearList.innerHTML = Array.from(
     { length: 11 },
-    (_, i) => `<span class="text-h3 text-dark-gray">${2025 + i}</span>`
+    (_, i) => `<span class="text-month-name text-dark-gray">${2025 + i}</span>`
   ).join("");
 
   yearList.addEventListener("click", (e) => {
