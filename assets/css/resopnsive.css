@@ -1238,8 +1238,11 @@
   }
 
   .product-title {
-    flex-direction: column !important;
-    gap: 20px !important;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .share-save {
+    justify-content: end;
   }
 
   /* footer */
