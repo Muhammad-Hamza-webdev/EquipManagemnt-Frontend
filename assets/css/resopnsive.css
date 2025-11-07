@@ -106,6 +106,14 @@
   .inner-customer {
     padding: 0 40px;
   }
+
+  /* product-detail */
+  .product-showcase-main-img img {
+    height: 420px;
+  }
+  .product-showcase-sub-img img {
+    height: 200px;
+  }
 }
 /* ================================================================== */
 /* width 1200px */
@@ -324,7 +332,8 @@
   .setp-process,
   .feature,
   .equipment,
-  .company_story {
+  .company_story,
+  .product-detail {
     padding: 80px 0;
   }
   .popular {
@@ -543,6 +552,17 @@
   .inner-mission {
     padding: 80px 40px 200px 40px;
   }
+
+  /* product-detail */
+  .inner-product-detail {
+    gap: 20px;
+  }
+  .product-showcase-main-img img {
+    height: 300px;
+  }
+  .product-showcase-sub-img img {
+    height: 140px;
+  }
 }
 /* ================================================================== */
 /* width 880px */
@@ -738,6 +758,30 @@
     width: 100%;
   }
 
+  /* product detail */
+  .product-img-showcase {
+    flex-wrap: wrap;
+  }
+  .product-showcase-main-img {
+    width: 100%;
+  }
+  .product-showcase-main-img img {
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+  }
+  .product-showcase-sub-img img {
+    height: 200px;
+  }
+  .product-showcase-sub-img {
+    width: 100%;
+  }
+  .product-showcase-sub-img img:nth-child(2) {
+    border-radius: 0;
+  }
+  .product-showcase-sub-img img:nth-child(3) {
+    border-radius: 0 0 0 20px;
+  }
+
   /* footer */
   .footer-logo span {
     font-size: 20px;
@@ -774,7 +818,8 @@
   .setp-process,
   .feature,
   .equipment,
-  .company_story {
+  .company_story,
+  .product-detail {
     padding: 60px 0;
   }
   .popular {
@@ -894,6 +939,14 @@
     padding: 0 0 200px 0;
   }
 
+  /* product detail */
+  .product-showcase-main-img img {
+    height: 320px;
+  }
+  .product-showcase-sub-img img {
+    height: 160px;
+  }
+
   /* footer */
   .footer-logo {
     margin-bottom: 20px;
@@ -931,7 +984,8 @@
   .feature,
   .customer,
   .equipment,
-  .company_story {
+  .company_story,
+  .product-detail {
     padding: 40px 0;
   }
   .popular {
@@ -1181,6 +1235,11 @@
   .benfi {
     margin-top: -260px;
     padding: 0 0 180px 0;
+  }
+
+  .product-title {
+    flex-direction: column !important;
+    gap: 20px !important;
   }
 
   /* footer */
