@@ -135,6 +135,32 @@
 /* ================================================================== */
 @media (max-width: 1200px) {
   /* header------------------ */
+
+  .dropdown {
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+    padding: 10px 0 0 15px;
+    transform: none;
+    border-radius: 0;
+  }
+
+  .dropdown-hvr-act > .dropdown {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .dropdown-hvr-act:hover > .dropdown,
+  .dropdown-hvr-act:focus-within > .dropdown {
+    max-height: 300px;
+    opacity: 1;
+    visibility: visible;
+  }
+
   .navigation {
     display: flex;
     flex-direction: column;
@@ -143,7 +169,7 @@
     top: 0;
     right: 0;
     width: 90%;
-    padding: 120px 120px 0 30px;
+    padding: 120px 40px 0 30px;
     align-items: start;
     height: 100vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
